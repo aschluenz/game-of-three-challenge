@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+}
+
+html,
+button {
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+        Helvetica, Arial, 'Lucida Grande', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.game {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    background-color: #000;
+}
+
+.game .field {
+    height: 100px;
+    margin-top: -100px;
+    position: absolute;
+
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+
+.game .field .button {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    padding-bottom: 15px;
+    text-align: center;
+    width: 400px;
+}
+
+.game .title,
+.game .info,
+.game .number,
+.game .waiting {
+    font-size: 200%;
+}
+
+.game .title,
+.game .info,
+.game .button,
+.game .number,
+.game .waiting {
+    color: #fff;
+    font-weight: 100;
+}
